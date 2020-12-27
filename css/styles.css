@@ -1,0 +1,36 @@
+header {
+  background-color: pink;
+  background-image: url(..)
+}
+
+/* a:hover {
+  opacity: .8;
+} */
+.h1 {
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#home {
+  width: 140px;
+  background-color: skyblue;
+  /* background-color: rgba(255,0,0,0.5); */
+  text-align: center;
+  padding: 4px 8px;
+}
+
+#home:hover {
+  opacity: .4;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  /* 意図しない回り込み回避 */
+  overflow: hidden;
+}
+ul li {
+  float: left;
+  width: 140px;
+  text-align: center;
+}
